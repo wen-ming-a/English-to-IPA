@@ -2,11 +2,20 @@
 
 ### English to IPA (eng_to_ipa)
 
+```
+Apart from the standard Arpabet to IPA conversion rules (https://en.wikipedia.org/wiki/Arpabet), the following ones were observed:
+
+AH is converted to ʌ when bearing primary stress and to ə otherwise (AH1 -> ʌ; AH0, AH2 -> ə)
+Vowel length is indicated (AA -> ɑː, ER -> ɝː, IY -> iː, UW -> uː). However, unstressed word-final ER and IY are short (i.e., ER0 -> ɝ and IY -> i when word-final).
+
+```
+
+https://github.com/menelik3/cmudict-ipa
+
 ** Change Origial Symbols Tuple like this:
 
-```Python
     symbols = {
-                "a": "ɔː",
+                "a": "ə",
                 "ey": "eɪ",
                 "aa": "ɑː",
                 "ae": "æ",
@@ -17,7 +26,7 @@
                 "ch": "ʧ",
                 "dh": "ð",
                 "eh": "e",
-                "er": "əː",
+                "er": "ɝː",
                 "hh": "h",
                 "ih": "ɪ",
                 "jh": "ʤ",
