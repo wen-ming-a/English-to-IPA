@@ -96,7 +96,7 @@ def get_cmu(tokens_in, db_type="sql"):
 def cmu_to_ipa(cmu_list, mark=True, stress_marking='all'):
     """converts the CMU word lists into IPA transcriptions"""
     symbols = {
-                "a": "ɔː",
+                "a": "ə",
                 "ey": "eɪ",
                 "aa": "ɑː",
                 "ae": "æ",
@@ -107,7 +107,7 @@ def cmu_to_ipa(cmu_list, mark=True, stress_marking='all'):
                 "ch": "ʧ",
                 "dh": "ð",
                 "eh": "e",
-                "er": "əː",
+                "er": "ɝː",
                 "hh": "h",
                 "ih": "ɪ",
                 "jh": "ʤ",
