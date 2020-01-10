@@ -12,7 +12,7 @@ Vowel length is indicated (AA -> ɑː, ER -> ɝː, IY -> iː, UW -> uː). Howeve
 
 https://github.com/menelik3/cmudict-ipa
 
-** Change Origial Symbols Tuple like this:
+** Change Origial Symbols Tuple like this: **
 
     symbols = {
                 "a": "ə",
