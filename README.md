@@ -2,6 +2,37 @@
 
 ### English to IPA (eng_to_ipa)
 
+** Change Origial Symbols Tuple like this:
+
+```Python
+    symbols = {
+                "a": "ɔː",
+                "ey": "eɪ",
+                "aa": "ɑː",
+                "ae": "æ",
+                "ah": "ʌ",
+                "ao": "ɔ",
+                "aw": "aʊ",
+                "ay": "aɪ",
+                "ch": "ʧ",
+                "dh": "ð",
+                "eh": "e",
+                "er": "əː",
+                "hh": "h",
+                "ih": "ɪ",
+                "jh": "ʤ",
+                "ng": "ŋ",
+                "ow": "oʊ",
+                "oy": "ɔɪ",
+                "sh": "ʃ",
+                "th": "θ",
+                "uh": "ʊ",
+                "uw": "uː",
+                "zh": "ʒ",
+                "iy": "iː",
+                "y": "j"
+            }
+```
 
 This Python program utilizes the Carnegie-Mellon University Pronouncing Dictionary to convert English text into the [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
